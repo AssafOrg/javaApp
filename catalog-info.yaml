@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "javaApp"
+  links:
+    - url: https://dashboard.example.com
+      title: My Dashboard
+      icon: dashboard
+spec:
+  type: service
+  owner: assaf-enso
+  lifecycle: production
+  system: assaf-application-java
